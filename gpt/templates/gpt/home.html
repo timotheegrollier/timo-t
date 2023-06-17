@@ -1,0 +1,19 @@
+{% extends './base.html' %}
+
+{% block content %}
+<h1>TIMO-T</h1>
+
+<form method="POST">
+    {% csrf_token %}
+    <label for="prompt">Posez votre question :</label>
+    <textarea class="form-control" type="text" id="prompt" name="prompt" cols="30" rows="10"></textarea>
+    <button class="btn btn-primary" type="submit">Envoyer</button>
+</form>
+
+
+<div id="response-block">
+    <p>
+        {{ response }}
+    </p>
+</div>
+{% endblock %}

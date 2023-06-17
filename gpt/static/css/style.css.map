@@ -1,0 +1,1 @@
+{"version":3,"file":"style.css","mappings":"AAAA,KACI,mB","sources":["webpack://timo-t/./gpt/static/scss/style.scss"],"sourcesContent":["body{\n    background: rgb(212, 211, 211);\n}"],"names":[],"sourceRoot":""}
