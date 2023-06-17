@@ -1,9 +1,16 @@
 {% extends './base.html' %}
 
 {% block content %}
-<h1>TIMO-T</h1>
+<h1 class="text-center mb-5">TIMO-T</h1>
 
-<form method="POST">
+<div id="response-block" class="mt-5 mb-5">
+    <p>
+        {{ response }}
+    </p>
+</div>
+
+
+<form method="POST" id="prompt-form">
     {% csrf_token %}
     <label for="prompt">Posez votre question :</label>
     <textarea class="form-control" type="text" id="prompt" name="prompt" cols="30" rows="10"></textarea>
@@ -11,9 +18,4 @@
 </form>
 
 
-<div id="response-block">
-    <p>
-        {{ response }}
-    </p>
-</div>
 {% endblock %}

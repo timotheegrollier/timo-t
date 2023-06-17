@@ -1,1 +1,1 @@
-{"version":3,"file":"style.css","mappings":"AAAA,KACI,mB","sources":["webpack://timo-t/./gpt/static/scss/style.scss"],"sourcesContent":["body{\n    background: rgb(212, 211, 211);\n}"],"names":[],"sourceRoot":""}
+{"version":3,"file":"style.css","mappings":"AAAA,KACI,mBACA,qBACI,a","sources":["webpack://timo-t/./gpt/static/scss/_chat.scss"],"sourcesContent":["body{\n    background: rgb(212, 211, 211);\n    #response-block{\n        display: flex;\n    }\n}"],"names":[],"sourceRoot":""}
